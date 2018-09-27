@@ -131,4 +131,9 @@ if($sg_enabled) {
     Data from <a target='_blank' href='http://www.startupgenome.com'>StartupGenome</a>
   ";
 }
-?>
+
+
+
+
+define('GOOGLE_MAPS_API_KEY',   'AIzaSyAQKbj1WwDWt_xKsIsUNORIXdcpFr6zHzc');
+
