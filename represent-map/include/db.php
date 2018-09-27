@@ -100,7 +100,7 @@ $domain = "http://map.coimbatorestartups.org";
 // Twitter username and default share text
 $twitter = array(
   "share_text" => "Let's put Coimbatore startups on the map:",
-  "username" => "coimbatorestartups"
+  "username" => "cbestartups"
 );
 
 // Short blurb about this site (visible to visitors)
@@ -136,4 +136,4 @@ if($sg_enabled) {
 
 
 define('GOOGLE_MAPS_API_KEY',   'AIzaSyAQKbj1WwDWt_xKsIsUNORIXdcpFr6zHzc');
-
+define('FB_APP_ID',             '421651897866629');

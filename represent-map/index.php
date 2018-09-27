@@ -131,7 +131,7 @@ include_once "header.php";
 
         // set map options
         var myOptions = {
-          zoom: 11,
+          zoom: 10,
           //minZoom: 10,
           center: new google.maps.LatLng(<?= $lat_lng ?>),
           mapTypeId: google.maps.MapTypeId.ROADMAP,
@@ -379,7 +379,7 @@ include_once "header.php";
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
       js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=421651897866629";
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=<?php echo FB_APP_ID; ?>";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 
