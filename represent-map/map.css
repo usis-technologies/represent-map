@@ -84,7 +84,7 @@ html, body, #map_canvas
 }
 .topbar .logo
 {
-  padding: 11px 10px 0px 20px;
+  padding: 0px 10px 0px 20px;
   float: left;
   line-height: 60px;
 }
@@ -96,6 +96,13 @@ html, body, #map_canvas
 {
   display: block;
 }
+
+.topbar .logo a span
+{
+  font-family: 'Oswald', sans-serif !important;
+  font-size: 26px;
+}
+
 .topbar .buttons
 {
   float: left;

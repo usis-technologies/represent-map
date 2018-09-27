@@ -109,18 +109,18 @@ $blurb = "This map was made to connect and promote the Coimbatore startup commun
 // attribution (must leave link intact, per our license)
 $attribution = "
   <div style='text-align:center !important;'>
-    Sponsored by<br/>
-    <a href='http://usistech.com' target='_blank'><img src='http://usistech.com/images/logo.png' alt='technology that emerges' title='uSiS Technologies Private Limited' style='max-height: 27px;'/></a>
+    Enhanced and hosted by<br/>
+    <a href='http://usistech.com' target='_blank'><img src='http://usistech.com/images/logo-white.png' alt='technology that emerges' title='uSiS Technologies Private Limited' style='max-height: 27px;'/></a>
     <br/>
 
     <br/>
     
-    Powered by<br/><a href='http://www.tinywall.com/' target='_blank'>
+    Ideated by<br/><a href='http://www.tinywall.com/' target='_blank'>
     <img src='http://www.tinywall.com/images/logo.jpg' alt='technology that emerges' title='Tinywall Technologies Private Limited' style='max-height: 27px;' /> Tinywall</a><br/>
 
     <br/>
 
-    Based on<br/><a href='http://www.represent.la' target='_blank'>RepresentLA</a>
+    Built with <br/><a href='https://github.com/abenzer/represent-map' target='_blank'>RepresentLA</a>
   </div>
 ";
 

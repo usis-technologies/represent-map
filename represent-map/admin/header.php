@@ -47,7 +47,7 @@ $admin_head = "
     <link rel='stylesheet' href='admin.css' type='text/css' />
     <script src='../bootstrap/js/bootstrap.js' type='text/javascript' charset='utf-8'></script>
     <script src='../scripts/jquery-1.7.1.js' type='text/javascript' charset='utf-8'></script>
-    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false' type='text/javascript' charset='utf-8'></script>
+    <script src='https://maps.googleapis.com/maps/api/js?key=".GOOGLE_MAPS_API_KEY."&v=3.exp&sensor=false' type='text/javascript' charset='utf-8'></script>
   </head>
   <body>
 ";
