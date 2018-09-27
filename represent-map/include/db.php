@@ -89,28 +89,39 @@ $show_events = true;
 $head_html = "";
 
 // The <title></title> tag
-$title_tag = "represent.la - map of the Los Angeles startup community";
+$title_tag = "Coimbatore Startups - map of the Coimbatore startup community";
 
 // The latitude & longitude to center the initial map
-$lat_lng = "34.034453,-118.341293";
+$lat_lng = "11.0118701,76.897195";
 
 // Domain to use for various links
-$domain = "http://www.represent.la";
+$domain = "http://map.coimbatorestartups.org";
 
 // Twitter username and default share text
 $twitter = array(
-  "share_text" => "Let's put Los Angeles startups on the map:",
-  "username" => "representla"
+  "share_text" => "Let's put Coimbatore startups on the map:",
+  "username" => "coimbatorestartups"
 );
 
 // Short blurb about this site (visible to visitors)
-$blurb = "This map was made to connect and promote the Los Angeles tech startup community.  Let's put LA on the map!";
+$blurb = "This map was made to connect and promote the Coimbatore startup community.";
 
 // attribution (must leave link intact, per our license)
 $attribution = "
-  <span>
-    Based on <a href='http://www.represent.la' target='_blank'>RepresentLA</a>
-  </span>
+  <div style='text-align:center !important;'>
+    Sponsored by<br/>
+    <a href='http://usistech.com' target='_blank'><img src='http://usistech.com/images/logo.png' alt='technology that emerges' title='uSiS Technologies Private Limited' style='max-height: 27px;'/></a>
+    <br/>
+
+    <br/>
+    
+    Powered by<br/><a href='http://www.tinywall.com/' target='_blank'>
+    <img src='http://www.tinywall.com/images/logo.jpg' alt='technology that emerges' title='Tinywall Technologies Private Limited' style='max-height: 27px;' /> Tinywall</a><br/>
+
+    <br/>
+
+    Based on<br/><a href='http://www.represent.la' target='_blank'>RepresentLA</a>
+  </div>
 ";
 
 // add startup genome to attribution if integration enabled
