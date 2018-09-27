@@ -24,7 +24,7 @@ function geocode($table) {
 
   // geocode and save them back to the db
   $delay = 0;
-  $base_url = "http://" . MAPS_HOST . "/maps/api/geocode/xml";
+  $base_url = "https://" . MAPS_HOST . "/maps/api/geocode/xml";
 
   // Iterate through the rows, geocoding each address
   while ($row = @mysql_fetch_assoc($result)) {
@@ -33,7 +33,7 @@ function geocode($table) {
     while ($geocode_pending) {
       $address = $row["address"];
       $id = $row["id"];
-      $request_url = $base_url . "?address=" . urlencode($address) . "&sensor=false";
+      $request_url = $base_url . "?address=" . urlencode($address) . "&sensor=false&key=".GOOGLE_MAPS_API_KEY;
       $xml = simplexml_load_file($request_url) or die("url not loading");
       
       $status = $xml->status;
