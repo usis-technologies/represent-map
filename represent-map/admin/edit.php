@@ -103,20 +103,32 @@ if($task == "doedit") {
     <div class="control-group">
       <label class="control-label" for="">Location</label>
       <div class="controls">
-        <input type="hidden" name="lat" id="mylat" value="<?=$place[lat]?>"/>
-        <input type="hidden" name="lng" id="mylng" value="<?=$place[lng]?>"/>
+        <?php
+        if($place['lat'] > 0 && $place['lng'] > 0){
+          $load_lat = $place['lat'];
+          $load_lng = $place['lng'];
+          $zoom     = 17;
+        } else {
+          $ar_lat_lng = explode(",", $lat_lng);
+          $load_lat = $ar_lat_lng[0];
+          $load_lng = $ar_lat_lng[1];
+          $zoom     = 10;
+        }
+        ?>
+        <input type="hidden" name="lat" id="mylat" value="<?=$load_lat?>"/>
+        <input type="hidden" name="lng" id="mylng" value="<?=$load_lng?>"/>
         <div id="map" style="width:80%;height:300px;">
         </div>
         <script type="text/javascript">
           var map = new google.maps.Map( document.getElementById('map'), {
-            zoom: 17,
-            center: new google.maps.LatLng( <?=$place[lat]?>, <?=$place[lng]?> ),
+            zoom: <?php echo $zoom; ?>,
+            center: new google.maps.LatLng( <?=$load_lat?>, <?=$load_lng?> ),
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             streetViewControl: false,
             mapTypeControl: false
           });
           var marker = new google.maps.Marker({
-            position: new google.maps.LatLng( <?=$place[lat]?>, <?=$place[lng]?> ),
+            position: new google.maps.LatLng( <?=$load_lat?>, <?=$load_lng?> ),
             map: map,
             draggable: true
           });
