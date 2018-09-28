@@ -95,7 +95,7 @@ $title_tag = "Coimbatore Startups - map of the Coimbatore startup community";
 $lat_lng = "11.0118701,76.897195";
 
 // Domain to use for various links
-$domain = "http://map.coimbatorestartups.org";
+$domain = "https://map.coimbatorestartups.org";
 
 // Twitter username and default share text
 $twitter = array(
@@ -110,13 +110,13 @@ $blurb = "This map was made to connect and promote the Coimbatore startup commun
 $attribution = "
   <div style='text-align:center !important;'>
     Enhanced and hosted by<br/>
-    <a href='http://usistech.com' target='_blank'><img src='http://usistech.com/images/logo-white.png' alt='technology that emerges' title='uSiS Technologies Private Limited' style='max-height: 27px;'/></a>
+    <a href='https://usistech.com' target='_blank'><img src='images/sponsors/usis-logo-white.png' alt='technology that emerges' title='uSiS Technologies Private Limited' style='max-height: 27px;'/></a>
     <br/>
 
     <br/>
     
     Ideated by<br/><a href='http://www.tinywall.com/' target='_blank'>
-    <img src='http://www.tinywall.com/images/logo.jpg' alt='technology that emerges' title='Tinywall Technologies Private Limited' style='max-height: 27px;' /> Tinywall</a><br/>
+    <img src='images/sponsors/tinywall-logo.jpg' alt='technology that emerges' title='Tinywall Technologies Private Limited' style='max-height: 27px;' /> Tinywall</a><br/>
 
     <br/>
 

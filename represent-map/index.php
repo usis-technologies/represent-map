@@ -18,7 +18,7 @@ include_once "header.php";
     <title><?= $title_tag ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta charset="UTF-8">
-    <link href='http://fonts.googleapis.com/css?family=Oswald|Open+Sans+Condensed:700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald|Open+Sans+Condensed:700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link href="./bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="./bootstrap/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="map.css?nocache=289671982568" type="text/css" />
@@ -490,7 +490,7 @@ include_once "header.php";
           Let's put Coimbatore on the map together!
         </p>
         <p>
-        Questions? Feedback? Connect with us: <a href="http://www.twitter.com/<?= $twitter['username'] ?>" target="_blank">@<?= $twitter['username'] ?></a>
+        Questions? Feedback? Connect with us: <a href="https://www.twitter.com/<?= $twitter['username'] ?>" target="_blank">@<?= $twitter['username'] ?></a>
         </p>
         <p>
           This map was built with <a href="https://github.com/abenzer/represent-map">RepresentMap</a> - an open source project started
@@ -498,12 +498,12 @@ include_once "header.php";
         </p>
         <p style="text-align: right;">
           Enhanced and hosted by<br/>
-    <a href='http://usistech.com' target='_blank'><img src='http://usistech.com/images/logo.png' alt='technology that emerges' title='uSiS Technologies Private Limited' style='max-height: 27px;'/></a><br/>
+    <a href='https://usistech.com' target='_blank'><img src='images/sponsors/usis-logo.png' alt='technology that emerges' title='uSiS Technologies Private Limited' style='max-height: 27px;'/></a><br/>
     uSiS Technologies is a global IT consultancy & solutions provider based out of this beautiful Coimbatore.
         </p>
     <p style="text-align: right;">
     Ideated by<br/><a href='http://www.tinywall.com/' target='_blank'>
-    <img src='http://www.tinywall.com/images/logo.jpg' alt='technology that emerges' title='Tinywall Technologies Private Limited' style='max-height: 27px;' /> Tinywall</a><br/>
+    <img src='images/sponsors/tinywall-logo.png' alt='technology that emerges' title='Tinywall Technologies Private Limited' style='max-height: 27px;' /> Tinywall</a><br/>
     Tinywall Technologies Private Limited owns and operates an online portal which facilitates hiring and finding of part-time jobs online.<br/>
 
     
