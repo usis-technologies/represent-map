@@ -23,10 +23,25 @@ include_once "header.php";
     <link href="./bootstrap/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="map.css?nocache=289671982568" type="text/css" />
     <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="mobile.css" type="text/css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $GOOGLE_ANALYTICS_ARRAY[0]; ?>"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      <?php
+      foreach ($GOOGLE_ANALYTICS_ARRAY as $ga_id) {
+        echo "gtag('config', '".$ga_id."');\n";
+      }
+      ?>
+    </script>
+
+
     <script src="./scripts/jquery-1.7.1.js" type="text/javascript" charset="utf-8"></script>
     <script src="./bootstrap/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
     <script src="./bootstrap/js/bootstrap-typeahead.js" type="text/javascript" charset="utf-8"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=<?php echo GOOGLE_MAPS_API_KEY; ?>&sensor=false"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=<?php echo GOOGLE_MAPS_API_KEY; ?>"></script>
     <script type="text/javascript" src="./scripts/label.js"></script>
 
     <script type="text/javascript">
@@ -503,7 +518,7 @@ include_once "header.php";
         </p>
     <p style="text-align: right;">
     Ideated by<br/><a href='http://www.tinywall.com/' target='_blank'>
-    <img src='images/sponsors/tinywall-logo.png' alt='technology that emerges' title='Tinywall Technologies Private Limited' style='max-height: 27px;' /> Tinywall</a><br/>
+    <img src='images/sponsors/tinywall-logo.jpg' alt='technology that emerges' title='Tinywall Technologies Private Limited' style='max-height: 27px;' /> Tinywall</a><br/>
     Tinywall Technologies Private Limited owns and operates an online portal which facilitates hiring and finding of part-time jobs online.<br/>
 
     

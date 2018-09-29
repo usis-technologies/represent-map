@@ -137,3 +137,5 @@ if($sg_enabled) {
 
 define('GOOGLE_MAPS_API_KEY',   'AIzaSyAQKbj1WwDWt_xKsIsUNORIXdcpFr6zHzc');
 define('FB_APP_ID',             '421651897866629');
+
+$GOOGLE_ANALYTICS_ARRAY = array("UA-73404160-5");
